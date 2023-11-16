@@ -1,3 +1,29 @@
+/* Fonts */
+
+@font-face {
+  font-weight: 400;
+  font-family: "Poppins-Regular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Jost-Regular";
+  src: url("../assets/fonts/Jost/static/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Jost-Bold";
+  src: url("../assets/fonts/Jost/static/Jost-Bold.ttf");
+}
+
 body {
   width: 1440px;
 }
@@ -16,8 +42,9 @@ body {
 }
 
 .contact-section-header h1 {
+  margin: 0;
   color: #220BE8;
-  font-family: Poppins;
+  font-family: Poppins-Bold;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -25,10 +52,64 @@ body {
   letter-spacing: 17.28px;
 }
 
+.contact-section-header p {
+  color: #000;
+  margin: 0;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .contact-form {
+  padding-top: 179px;
+  padding-left: 66px;
   width: 653px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input {
+  border: 0;
+  width: 653px;
+  height: 94px;
+  margin-bottom: 81px;
+  background: #FFF;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form textarea {
+  width: 557px;
+  height: 265px;
+  margin-bottom: 49px;
+  padding: 29px 48px;
+  border: 0;
+  resize: none;
+  background: #FFF;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-form button {
+  width: 327px;
+  height: 94px;
+  flex-shrink: 0;
+  background: #FFF;
+  border: 0;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* Footer */
@@ -36,6 +117,7 @@ body {
 footer {
   background-color: rgba(255, 214, 150, 0.20);
   display: flex;
+  justify-content: space-around;
 }
 
 .subscribe-form {
@@ -45,7 +127,7 @@ footer {
 
 .subscribe-form-header {
   color: #0E0578;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -61,7 +143,7 @@ footer {
   border-radius: 30px;
   background: #000;
   color: #FFF;
-  font-family: Jost;
+  font-family: Jost-Regular;
   font-size: 31px;
   font-style: normal;
   font-weight: 700;
@@ -75,11 +157,17 @@ footer {
   border-radius: 30px;
   border: 0px;
   background: #F965FC;
+  color: #FFF;
+  font-family: Jost-Regular;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .footer-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .footer-links ul {
@@ -87,10 +175,14 @@ footer {
   flex-direction: column;
   list-style-type: none;
   color: #000;
-  font-family: Jost;
+  font-family: Jost-Regular;
   font-size: 31px;
   font-style: normal;
   line-height: normal;
+}
+
+.footer-links li {
+  padding-top: 30px;
 }
 
 .footer-links ul li:first-child {
