@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Test Page</title>
 </head>
+
 <body>
-    <h1>Test Page</h1>
+  <main>
+    <section class="contact-section">
+      <div class="contact-section-header">
+        <h1>Contact Me</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing</p>
+      </div>
+      <div class="contact-container">
+        <form class="contact-form" action="/api/v1/contact" method="post">
+          <input type="email" name="contact-form-email" id="contact-form-email">
+          <input type="password" name="contact-form-password" id="contact-form-password">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message.."></textarea>
+          <button type="submit">Contact</button>
+        </form>
+        <img class="contact-image" src="assets/images/b420648cc0ce460437a0da116c04e1a5.png" alt="A man with a laptop">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-block">
+      <div class="subscribe-form">
+        <p class="subscribe-form-header">UniDesign</p>
+        <form action="/api/v1/subscribe" method="post">
+          <input class="subscribe-form-input" type="email" name="email-input" id="email-input" placeholder="Email">
+          <button class="subscribe-form-submit" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-links">
+        <div class="link-column">
+          <ul>
+            <li>Platform</li>
+            <li>Home</li>
+            <li>Overview</li>
+            <li>Pricing</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <ul>
+            <li>Help</li>
+            <li>How It Works?</li>
+            <li>Pay?</li>
+            <li>Question?</li>
+            <li>Contact?</li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <ul>
+            <li>Contact</li>
+            <li>(+000) 1234-6789</li>
+            <li>116 Archlor Road<br>
+              Broadlaband,<br>
+              New York (NYC)<br>
+              1205</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="copyright-border"></div>
+      <div class="copyright-credentials">
+        <p>CopyRighted 2020-2023   All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

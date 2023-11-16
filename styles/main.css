@@ -1,0 +1,235 @@
+/* Fonts */
+
+@font-face {
+  font-weight: 400;
+  font-family: "Poppins-Regular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Jost-Regular";
+  src: url("../assets/fonts/Jost/static/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Jost-Bold";
+  src: url("../assets/fonts/Jost/static/Jost-Bold.ttf");
+}
+
+body {
+  width: 1440px;
+}
+
+/* Contact form */
+
+.contact-section {
+  height: 1316px;
+  background: rgba(67, 186, 253, 0.06);
+}
+
+.contact-section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-section-header h1 {
+  margin: 0;
+  color: #220BE8;
+  font-family: Poppins-Bold;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 17.28px;
+}
+
+.contact-section-header p {
+  color: #000;
+  margin: 0;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-form {
+  padding-top: 179px;
+  padding-left: 66px;
+  width: 653px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input {
+  border: 0;
+  width: 653px;
+  height: 94px;
+  margin-bottom: 81px;
+  background: #FFF;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form textarea {
+  width: 557px;
+  height: 265px;
+  margin-bottom: 49px;
+  padding: 29px 48px;
+  border: 0;
+  resize: none;
+  background: #FFF;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-form button {
+  width: 327px;
+  height: 94px;
+  flex-shrink: 0;
+  background: #FFF;
+  border: 0;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-image {
+  margin-left: -120px;
+  width: 958px;
+  height: 958px;
+  flex-shrink: 0;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgba(255, 214, 150, 0.20);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-block {
+  display: flex;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe-form-header {
+  color: #0E0578;
+  font-family: Poppins-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 16.8px;
+}
+
+.subscribe-form-input {
+  width: 323px;
+  height: 97px;
+  flex-shrink: 0;
+  border: 0px;
+  border-radius: 30px;
+  background: #000;
+  color: #FFF;
+  font-family: Jost-Regular;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subscribe-form-submit {
+  width: 178px;
+  height: 97px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 0px;
+  background: #F965FC;
+  color: #FFF;
+  font-family: Jost-Regular;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color: #000;
+  font-family: Jost-Regular;
+  font-size: 31px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.footer-links li {
+  padding-top: 30px;
+}
+
+.footer-links ul li:first-child {
+  font-weight: bold;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright-border {
+  width: 1334px;
+  height: 3px;
+  background: #000;
+}
+
+.copyright-credentials {
+  display: flex;
+  width: 100%;
+}
+
+.copyright-credentials p {
+  margin-top: 80px;
+  margin-left: 46px;
+  color: #000;
+  font-family: Jost-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
