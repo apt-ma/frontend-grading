@@ -128,7 +128,12 @@ body {
 footer {
   background-color: rgba(255, 214, 150, 0.20);
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+}
+
+.footer-block {
+  display: flex;
 }
 
 .subscribe-form {
@@ -199,4 +204,32 @@ footer {
 
 .footer-links ul li:first-child {
   font-weight: bold;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright-border {
+  width: 1334px;
+  height: 3px;
+  background: #000;
+}
+
+.copyright-credentials {
+  display: flex;
+  width: 100%;
+}
+
+.copyright-credentials p {
+  margin-top: 80px;
+  margin-left: 46px;
+  color: #000;
+  font-family: Jost-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
