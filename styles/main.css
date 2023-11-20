@@ -252,6 +252,7 @@ footer {
 
 .footer-block {
   display: flex;
+  justify-content: center;
 }
 
 .subscribe-form {
@@ -270,15 +271,24 @@ footer {
   letter-spacing: 16.8px;
 }
 
+.subscribe-form-container {
+  position: relative;
+  width: 440px;
+}
+
 .subscribe-form-input {
-  width: 323px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 257px;
   height: 97px;
-  flex-shrink: 0;
+  padding-left: 33px;
+  padding-right: 33px;
   border: 0px;
   border-radius: 30px;
   background: #000;
   color: #FFF;
-  font-family: Jost-Regular;
+  font-family: Jost-Bold;
   font-size: 31px;
   font-style: normal;
   font-weight: 700;
@@ -286,14 +296,16 @@ footer {
 }
 
 .subscribe-form-submit {
+  position: absolute;
+  right: 0px;
+  top: 0px;
   width: 178px;
-  height: 97px;
-  flex-shrink: 0;
+  height: 99px;
   border-radius: 30px;
   border: 0px;
   background: #F965FC;
   color: #FFF;
-  font-family: Jost-Regular;
+  font-family: Jost-Bold;
   font-size: 31px;
   font-style: normal;
   font-weight: 700;
@@ -302,6 +314,7 @@ footer {
 
 .footer-links {
   display: flex;
+  gap: 100px;
   flex-wrap: wrap; 
 }
 
