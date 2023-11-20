@@ -28,6 +28,60 @@ body {
   width: 1440px;
 }
 
+/* Projects section */
+
+.projects-section {
+  height: 910px;
+  background: rgba(255, 214, 150, 0.20);
+}
+
+.projects-section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-section-header h1 {
+  margin: 0;
+  color: #3B1FEA;
+  font-family: Poppins-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 9.6px;
+}
+
+.projects-section-header p {
+  margin: 0;
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.projects-image-row {
+  display: flex;
+  gap: 200px;
+}
+
+.projects-image-row img {
+  width: 246px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+
 /* Contact form */
 
 .contact-section {
