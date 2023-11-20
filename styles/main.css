@@ -195,11 +195,19 @@ body {
 
 .contact-form input {
   border: 0;
-  width: 653px;
+  width: 557px;
   height: 94px;
   margin-bottom: 81px;
+  padding-left: 48px;
+  padding-right: 48px;
   background: #FFF;
   box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .contact-form textarea {
