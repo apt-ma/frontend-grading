@@ -28,6 +28,70 @@ body {
   width: 1440px;
 }
 
+/* About section */
+
+.about-section {
+  height: 925px;
+  background: rgba(67, 186, 253, 0.06);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-text h1 {
+  margin: 0;
+  color: #2000E7;
+  font-family: Poppins-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 16.8px;
+}
+
+.about-text p {
+  width: 415px;
+  height: 303px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-button {
+  width: 246px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border-color: #2000E7;
+  background: #2000E7;
+  box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-image img {
+  width: 925px;
+  height: 925px;
+  flex-shrink: 0;
+}
+
 /* Projects section */
 
 .projects-section {
