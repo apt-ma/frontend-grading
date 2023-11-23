@@ -64,6 +64,120 @@ body {
   line-height: normal;
 }
 
+/* Welcome section */
+
+.welcome-section {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container {
+  height: 600px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: start;
+}
+
+.welcome-text-header {
+  margin: 0;
+  color: #2000E7;
+  font-family: Poppins-Regular;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome-text-hi {
+  margin: 0;
+  width: 447px;
+  color: #2000E7;
+  font-family: Poppins-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.welcome-text-hi-span {
+  color: #F2BD00;
+  font-family: Poppins-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.welcome-text-subheader {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 616px;
+  color: #383838;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome-buttons {
+  width: 570px;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-button-highlight {
+  width: 246px;
+  height: 72px;
+  border-radius: 10px;
+  border: 0px;
+  background: #2000E7;
+  box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome-button-regular {
+  width: 246px;
+  height: 72px;
+  border-radius: 10px;
+  border: 2px solid #2000E7;
+  background: rgba(32, 0, 231, 0.04);
+  box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+  color: #2000E7;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome-portrait {
+  width: 564px;
+  height: 564px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 0px 191px;
+  background: url("../assets/images/9d7ea24f2fb50c234a01f0b8a6601388.jpeg"), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: 150%;
+  box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50);
+}
+
 /* About section */
 
 .about-section {
