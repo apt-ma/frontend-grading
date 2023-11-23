@@ -28,6 +28,42 @@ body {
   width: 1440px;
 }
 
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #0E0578;
+  font-family: Poppins-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-menu {
+  display: flex;
+  gap: 80px;
+  list-style-type: none;
+}
+
+.header-menu li {
+  color: #686565;
+  font-family: Poppins-Regular;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /* About section */
 
 .about-section {
