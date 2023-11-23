@@ -479,7 +479,7 @@ footer {
 .footer-links {
   display: flex;
   gap: 100px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .footer-links ul {
